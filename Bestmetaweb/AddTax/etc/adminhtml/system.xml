@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2020 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="customfee" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <class>separator-top</class>
+            <label>Custom Tax</label>
+            <tab>sales</tab>
+            <resource>Magento_Catalog::config_catalog</resource>
+
+            <group id="customfee" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Custom Tax Settings</label>
+                <field id="status" translate="label comment" type="select" sortOrder="1" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Status</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="name" translate="label comment" type="text" sortOrder="2" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Tax Name</label>
+                </field>
+                <field id="checkbox_title" translate="label comment" type="text" sortOrder="3" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Checkbox Title</label>
+                </field>
+                <field id="checkbox_description" translate="label comment" type="text" sortOrder="4" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Checkbox Description</label>
+                </field>
+                <field id="list_typefee" translate="label comment" type="select" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Type of tax calculation </label>
+                    <source_model>Bestmetaweb\AddTax\Model\Config\Source\ListTypefee</source_model>
+                </field>
+                <field id="customfee_amount" translate="label comment" type="text" sortOrder="6" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Custom Tax Amount in percentage</label>
+                    <validate>validate-number validate-zero-or-greater</validate>
+                </field>
+                <field id="minimum_order_amount" translate="label comment" type="text" sortOrder="7" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Minimum Order Amount To Display</label>
+                    <comment><![CDATA[Greaterthan or equal to]]></comment>
+                    <validate>validate-number validate-zero-or-greater</validate>
+                </field>
+            </group>
+
+        </section>
+
+    </system>
+</config>
