@@ -1,8 +1,8 @@
 # Tax_Custom_Magento2
 Add Custom Tax - Calculation:  percentage or fixed - Checkbox for customer in Checkout Onepage
-<div style="width:100%">
+<div>
 Backend Configuration in Sell -> Custom Tax
-<img align="left" style="max-width:70%" src="https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_admin.png">
+<img   src="https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_admin.png">
 </div>
 <div>
 Frontend Onepage Checkout Checkbox after Payment methods
