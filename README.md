@@ -2,6 +2,7 @@
 Add Custom Tax - Calculation:  percentage or fixed - Checkbox for customer in Checkout Onepage
 <div>
 Backend Configuration in Sell -> Custom Tax
+  ![Image of Yaktocat](https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_admin.png | width=250)
   ![](https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_admin.png | width=250)
 </div>
 <div>
