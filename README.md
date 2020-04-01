@@ -7,4 +7,8 @@ Backend Configuration in Sell -> Custom Tax
 Frontend Onepage Checkout Checkbox after Payment methods
 ![Magento 2 Tax Custom Frontend 1](https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_frontend_checkbox.png)
 
+Frontend Onepage Checkout Summary Row
+![Magento 2 Tax Custom Frontend 2](https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_frontend_summary.png)
+
+<img align="left" src="https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_frontend_summary.png">
 
