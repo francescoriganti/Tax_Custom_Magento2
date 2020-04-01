@@ -12,6 +12,6 @@ Frontend Onepage Checkout Checkbox after Payment methods
 </div>
 <div>
 Frontend Onepage Checkout Summary Row
- ![](https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_frontend_summary.png)
+![](https://github.com/francescoriganti/Tax_Custom_Magento2/blob/master/img_frontend_summary.png)
 
 </div>
