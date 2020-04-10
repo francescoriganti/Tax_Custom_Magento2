@@ -3,4 +3,7 @@
     <type name="Magento\Checkout\Model\ShippingInformationManagement">
         <plugin name="save_custom_feetax_in_quote" type="Bestmetaweb\AddTax\Plugin\Checkout\Model\ShippingInformationManagement" sortOrder="1"/>
     </type>
+    <type name="Magento\Paypal\Model\Cart">
+        <plugin name="addtax_update_paypal_custom_fee_order" type="Bestmetaweb\AddTax\Plugin\Model\UpdateCustomFeeForOrderPayPal"/>
+    </type>
 </config>
